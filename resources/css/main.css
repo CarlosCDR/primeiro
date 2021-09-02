@@ -1,0 +1,96 @@
+body{
+	background: #E6E6E6;
+	margin: 0px;
+}
+
+#BarraMenu{
+	background-color: orange;
+}
+
+#BarraMenu h1{
+	margin: 0px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 50px;
+	font-family: sans-serif; 
+}
+
+#Links{
+	 text-align: center;
+	 padding-bottom: 30px;
+	 padding-top: 5px;
+}
+
+#Links a{
+	font-size: 16px;
+	color: #FFFFFF;
+	font-family: sans-serif;
+	padding-left: 25px;
+    text-decoration: none;
+}
+
+#Cadastro{
+	border: 2px solid green;
+	border-radius: 15px;
+	background-color: #FFFFFF;
+	width: 800px;
+	height: 500px;
+	margin-top: 10px;
+	margin-left: 300px; 
+}
+
+.card-group >label{
+    width: 100%;
+    color: #000000;
+    display: block;
+    margin-left: 10px;
+}
+
+.card-group > input{
+   border-radius: 5px;
+   outline: 0;
+   width: 70%;
+   height: 25px;
+   padding: 15px;
+   margin-left: 30px;
+}
+
+.card-group{
+   margin-bottom: 10px;
+}
+
+.card-groupbtn > button{
+	background-image:linear-gradient(to right, green,darkgreen);
+	width: 60%;
+	border-radius: 30px;
+	padding: 15px;
+	color: #FFFFFF;
+	border: 0px;
+	outline: 0;
+	margin-left: 150px;
+
+
+}
+
+.card-group  > button{
+	background-image:linear-gradient(to right, red,darkred);
+	width: 60%;
+	border-radius: 30px;
+	padding: 15px;
+	color: #FFFFFF;
+	border: 0px;
+	outline: 0;
+	margin-left: 150px;
+
+
+}
+
+.card-groupbtn button:hover{
+   background-image:linear-gradient(to right, green, #30503a);
+}
+
+.card-group button:hover{
+   background-image:linear-gradient(to right, red, #30503a);
+}
+
